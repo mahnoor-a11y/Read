@@ -1,16 +1,17 @@
 # Data/GANs/experiments_code_files
 
-This folder contain code files for our training stability experiments for gans.
+This folder contains the code used for our GAN training stability experiments.
 
 ## Files
 
-- **pix2pix_TTUR.zip**  
-  it contain code file for two time update rule experiment.
+- **pix2pix_TTUR.zip**
+  Contains the code for the Two-Time Update Rule (TTUR) experiment.
+  
 - **pix2pix_TTUR_Label_smoothing**  
-   it contain code file for two time update rule + label smoothing experiment.
+   Contains the code for the TTUR with label smoothing experiment.
 
 - **PSL_grad_penality_spectral_norm**  
-  it contain code file for gradient penality+spectral normalization experiment.
+  Contains the code for the gradient penalty with spectral normalization experiment.
 
 
 
