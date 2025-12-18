@@ -2,7 +2,7 @@
 
 This folder contain code files for generating GANs training dataset.
 
-## Contents
+## Files
 
 - **Keypoints_normalization.py**  
   Normalizes keypoints from a folder of JSON keypoint files.
