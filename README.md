@@ -1,6 +1,6 @@
 # json folder Overview
 
-This folder contain json filed(keypoints extracted through mediapipe) of word level and sentence level datasets. 
+This folder contain json files (keypoints extracted through mediapipe) of word level and sentence level datasets. 
 
 ## Contents
 
