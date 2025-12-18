@@ -1,37 +1,24 @@
-# Read
 # Dataset Overview
 
-This repository contains curated sign language datasets used for research and experimentation. The folder is organized to clearly separate original datasets, derived subsets, and custom classifications.
+This folder  contains sign language datasets used in our research and experimentation. The folder is organized to clearly separate original datasets, derived subsets, and custom classifications.
 
 ## Contents
 
-* **Blue Lady Dataset (Custom Subset)**
-  A separately extracted dataset from **How2Sign**, focusing specifically on the *Blue Lady* signer for controlled experiments.
+* **blue_lady_videos folder**
+  This folder contain only blue lady data which we have used for controlled experiments.
 
-* **How2Sign (Complete Dataset)**
-  The full **How2Sign** dataset, organized into standard splits:
+* **How2Sign folder**
+  The folder contail complete how2sign dataset, organized into standard splits:
 
   * `train`
   * `test`
   * `val`
 
-* **PSL (Complete Dataset)**
-  The complete **Pakistan Sign Language (PSL)** dataset, preserved in its original structure.
+* **PSL_654_splitted_data folder**
+  This folder contain Deaf reach dataset of 218 words with 3 repititions.
 
-* **How2Sign – Classified Data**
-  Custom-classified subsets of the How2Sign dataset, grouped based on:
-
+* **how2sign_classified_dataset folder**
+  This folder contain how2sign classified dataset based on 
   * Signer identity
-  * Signer clothing (appearance-based categorization)
+  * Signer clothing
 
-## Purpose
-
-This structure allows:
-
-* Controlled analysis using specific signers or clothing-based variations
-* Easy comparison between full datasets and curated subsets
-* Clean separation between original data and derived classifications
-
----
-
-*This dataset organization is intended to support reproducible experiments and efficient data management.*
