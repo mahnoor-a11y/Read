@@ -1,16 +1,10 @@
-# json folder Overview
+# Data / GANs / preprocessing / GAns_dataset_prepration
 
-This folder contain json files (keypoints extracted through mediapipe) of word level and sentence level datasets. 
+This folder contain code files for generating GANs training dataset.
 
 ## Contents
-
-* **sentence_level / Blue_lady_json folder**
-  This folder contain only blue lady 699 videos's keypoints.
-
-* **sentence_level / pink_lady_json_folder**
-   This folder contain only pink lady 3423 videos's keypoints.
-
-* **word_level / 654_Videos_PSL_keypoints folder**
-  This folder contain Deaf reach dataset's keypoints of 218 words with 3 repititions.
-
+**Keypoints_normalization.py:** Takes a folder of JSON keypoint files as input and normalizes the keypoints.
+**draw_skeleton_videos.py:** Uses the normalized keypoints to generate skeleton videos.
+**frame_extraction.py:** Extracts frames from both skeleton videos and corresponding human videos.
+**merge_skeleton_and_human_video_frames.py:** Combines the extracted skeleton and human frames by concatenating them side by side.
 
