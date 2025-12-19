@@ -10,7 +10,8 @@ This folder contains the code used for cropping the frames.
 
 - **move_frames.py**
    
-   This file takes input the above generated csv and move the frames with status of keeep to one folder with naming convention poseid_word_instance_frame_name.png
+  Uses the generated CSV file to move frames marked as keep into a single folder. The frames are renamed using the following convention:
+  poseid_word_instance_frame_name.png
 
 
 
