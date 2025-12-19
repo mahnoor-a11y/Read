@@ -1,6 +1,7 @@
 # Data/GANs/data_reduction
 
-This folder contains the code used for cropping the frames.
+This folder contains code for reducing redundant frames, ensuring that a maximum of 15 instances are retained.
+
 ## Files
 
 - **keep_15_frames.py**
