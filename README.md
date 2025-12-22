@@ -1,8 +1,13 @@
-# Data / Text2Pose / Preprocessing / missing_keypoints_filling
+# Data / Extra_Utilities / Visualization
 
-This folder contains preprocessing code for filling missing hand keypoints in JSON files.
+This folder contains code for visualizing and processing JSON keypoint files.
 
 ## Files
 
-- **average_hand_filling.py**  
-  Takes a folder of JSON files as input and fills missing hand keypoints by averaging the previous and next non-zero frames.
+- **normalize_json.py**
+  
+  Takes a folder of JSON files as input and generates normalized keypoint files.
+
+- **video.py**
+  
+  Uses the normalized JSON files to generate and plot corresponding videos.
