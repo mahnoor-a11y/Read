@@ -1,8 +1,8 @@
-# Data / Text2Pose / Preprocessing / Text2Gloss
+# Data / Text2Pose / Preprocessing / Hand Keypoints Filling
 
-This folder contains preprocessing code for generating gloss sequences from text.
+This folder contains preprocessing code for filling missing hand keypoints in JSON files.
 
 ## Files
 
 - **text2gloss_preprocessing.py**  
-  Takes a CSV file containing a sentence column as input and generates a new CSV with the corresponding gloss sequences.
+  Takes a folder of JSON files as input and fills missing hand keypoints by averaging the previous and next non-zero frames.
