@@ -1,6 +1,6 @@
-# Data/Weekly Presentations
+# Data / Weekly Presentations
 
-This folder contains all the presentations i have mae till now.
+This folder contains all presentations created for documenting weekly progress, experiments, analyses, and results throughout the project.
 
 ## Files
 
